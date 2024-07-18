@@ -1,13 +1,13 @@
-print("WELCOME TO MY COMPUTER QUIZ !")
+print("WELCOME TO MY COMPUTER QUIZ !")  #welcoming the user in our quize
 
-playing = input("Do you want to Play? ")
+playing = input("Do you want to Play? ") #Taking an input from user
 
 if playing.lower() != "yes":
-    quit()
+    quit()  
 
 print("Okay! Let's play :) ")
 
-score = 0
+score = 0 #initialise the score for calculating the marks
 
 answer = input("What does CPU stands for? ")
 if answer.lower() == "central processing unit":
